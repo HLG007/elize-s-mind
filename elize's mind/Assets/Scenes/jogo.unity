@@ -429,6 +429,10 @@ PrefabInstance:
       propertyPath: m_DeviceLostEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6161255236304629634, guid: 9b989e10ca189724a8c43162da522897, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6574559794015382713, guid: 561c66866f027374686a8d645c207be1, type: 3}
     - target: {fileID: 6982492594103935961, guid: 9b989e10ca189724a8c43162da522897, type: 3}
       propertyPath: velocidade
       value: 0.05
