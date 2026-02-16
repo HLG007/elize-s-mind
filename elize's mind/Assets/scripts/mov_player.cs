@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class mov_player : MonoBehaviour
 {
-
+    public float velocidade = 0.01f;
     private Vector2 inputo;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -15,6 +15,6 @@ public class mov_player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += (Vector3)inputo*0.01f;
+        transform.position += (Vector3)inputo*velocidade;
     }
 }
