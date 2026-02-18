@@ -529,7 +529,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   text: {fileID: 6245832157729348921}
-  SPEEDTEXT: 0.05
+  TEXTCOOLDOWN: 0.03
   nome: {fileID: 6321300847250686653}
   som: {fileID: 2435650174612881808}
   write_text: "O vento da tarde atravessava a janela como se trouxesse pequenas hist\xF3rias
@@ -603,7 +603,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 79a8ee0ae43a8a44692733975b5358f9, type: 2}
   m_sharedMaterial: {fileID: -4976559725280258406, guid: 79a8ee0ae43a8a44692733975b5358f9, type: 2}

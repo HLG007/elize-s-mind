@@ -1,17 +1,19 @@
 using System.Collections;
+using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
+using System;
 
 public class dialog_prefab_scp : MonoBehaviour
 {
 
     public TextMeshProUGUI text;
-    public float SPEEDTEXT = 0.2f;
+    public float TEXTCOOLDOWN = 0.2f;
     public TextMeshProUGUI nome;
 
     public AudioSource som;
-    private bool playing = false;
 
 
 
@@ -21,22 +23,41 @@ public class dialog_prefab_scp : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(texto("pinto", write_text));
+        StartCoroutine(textoo(nome.text, write_text));
     }
 
 
-    IEnumerator texto(string name, string texto)
+    IEnumerator textoo(string name, string texto)
     {
+        string[] novotexto = textcodifiquer(texto);
         text.text = "";
-        for (int i = 0; i < texto.Length; i++)
+        nome.text = name;
+
+
+        for (int i = 0; i < novotexto.Length; i++)
         {
-            nome.text = name;
-            text.text += texto[i];
-            if (som.isPlaying == false)
+
+            if ((text.text.Length % 97 + novotexto[i].Length + 1) > 96)
             {
-                som.Play();
+                text.text += "\n";
             }
-            yield return new WaitForSeconds(SPEEDTEXT);
+            for (int j = 0; j < novotexto[i].Length; j++)
+            {
+                text.text += novotexto[i][j];
+                yield return new WaitForSeconds(TEXTCOOLDOWN);
+            }
+            text.text += " ";
         }
     }
+
+
+    private string[] textcodifiquer(string texto) // pega um texto e separa as palavras em uma lista ordenada
+    {
+
+        return texto.Split(' ');
+
+    }
+
+
+
 }
