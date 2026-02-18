@@ -319,7 +319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.21176471}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.6431373}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2323,7 +2323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9ad1cd7ba76d8148bcb306492538031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::menu
-  objetoQueVaiCair: {fileID: 0}
+  objetoQueVaiCair: {fileID: 1752956133}
 --- !u!114 &1752956133
 MonoBehaviour:
   m_ObjectHideFlags: 0
