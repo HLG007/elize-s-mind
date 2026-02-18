@@ -5,12 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class menu : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField] private GameObject painelmenuinical;
-    
+
+    public cair objetoQueVaiCair;
+
     public void Jogar()
     {
         SceneManager.LoadScene("jogo");
+    }
+
+    public void Opções()
+    {
+        objetoQueVaiCair.ComecarQueda();
     }
 
     public void Sair()
