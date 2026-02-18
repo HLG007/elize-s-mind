@@ -2,18 +2,33 @@ using UnityEngine;
 using System.Collections;
 
 public class cair : MonoBehaviour
+
 {
-    public void ComecarQueda()
+    bool estaMovendo = false;
+
+    public void Descer()
     {
-        StartCoroutine(Queda());
+        if (!estaMovendo)
+            StartCoroutine(Mover(-1));
     }
 
-    IEnumerator Queda()
+    public void Subir()
     {
-        for (int i = 0; i < 27; i++)
+        if (!estaMovendo)
+            StartCoroutine(Mover(1));
+    }
+
+    IEnumerator Mover(int direcao)
+    {
+        estaMovendo = true;
+
+        for (int i = 0; i < 20; i++)
         {
-            transform.position += new Vector3(0, -20, 0);
-            yield return new WaitForSeconds(0.01f);
+            transform.position += new Vector3(0, direcao * 25, 0);
+            yield return new WaitForSeconds(0.005f);
         }
+
+        estaMovendo = false;
     }
 }
+

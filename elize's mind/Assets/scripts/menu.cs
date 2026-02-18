@@ -13,9 +13,14 @@ public class menu : MonoBehaviour
         SceneManager.LoadScene("jogo");
     }
 
-    public void Opções()
+    public void DescerBotao()
     {
-        objetoQueVaiCair.ComecarQueda();
+        objetoQueVaiCair.Descer();
+    }
+
+    public void SubirBotao()
+    {
+        objetoQueVaiCair.Subir();
     }
 
     public void Sair()

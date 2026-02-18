@@ -1573,7 +1573,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 107137686}
         m_TargetAssemblyTypeName: menu, Assembly-CSharp
-        m_MethodName: "Op\xE7\xF5es"
+        m_MethodName: DescerBotao
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2419,9 +2419,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 107137686}
+      - m_Target: {fileID: 1752956132}
         m_TargetAssemblyTypeName: menu, Assembly-CSharp
-        m_MethodName: Sair
+        m_MethodName: SubirBotao
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
