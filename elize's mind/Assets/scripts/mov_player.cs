@@ -15,6 +15,10 @@ public class mov_player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += (Vector3)inputo*velocidade;
+        globalvariable.canmove = false;
+        if (globalvariable.canmove)
+        {
+            transform.position += (Vector3)inputo * velocidade;
+        }
     }
 }

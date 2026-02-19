@@ -12,6 +12,7 @@ public class dialog_prefab_scp : MonoBehaviour
     public TextMeshProUGUI text;
     public float TEXTCOOLDOWN = 0.2f;
     public TextMeshProUGUI nome;
+    private int algforlin = 96;
 
     public AudioSource som;
 
@@ -37,17 +38,23 @@ public class dialog_prefab_scp : MonoBehaviour
         for (int i = 0; i < novotexto.Length; i++)
         {
 
-            if ((text.text.Length % 97 + novotexto[i].Length + 1) > 96)
+            if ((text.text.Length % algforlin + 1 + novotexto[i].Length + 1) > algforlin)
             {
                 text.text += "\n";
             }
             for (int j = 0; j < novotexto[i].Length; j++)
             {
                 text.text += novotexto[i][j];
+                if (!som.isPlaying)
+                {
+                    som.Play();
+                }
                 yield return new WaitForSeconds(TEXTCOOLDOWN);
+
             }
             text.text += " ";
         }
+        som.Stop();
     }
 
 
