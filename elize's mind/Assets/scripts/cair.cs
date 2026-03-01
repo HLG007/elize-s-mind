@@ -22,7 +22,7 @@ public class cair : MonoBehaviour
     {
         estaMovendo = true;
 
-        for (int i = 0; i < 20; i++)
+        for (int i = 0; i < 50; i++)
         {
             transform.position += new Vector3(0, direcao * 25, 0);
             yield return new WaitForSeconds(0.005f);
