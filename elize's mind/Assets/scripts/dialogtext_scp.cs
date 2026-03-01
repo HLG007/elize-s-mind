@@ -5,6 +5,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 using System;
+using UnityEditor;
+using Unity.VisualScripting;
 
 public class dialog_prefab_scp : MonoBehaviour
 {
@@ -16,19 +18,25 @@ public class dialog_prefab_scp : MonoBehaviour
 
     public AudioSource som;
 
+    private bool clicou = false;
 
 
     public string write_text;
 
-
-
-    private void Start()
+    void Ontext_interact()
     {
-        StartCoroutine(textoo(nome.text, write_text));
+        clicou = true;
+        Debug.Log("adwa");
     }
 
 
-    IEnumerator textoo(string name, string texto)
+    private void StartDialog(string nome, string texto)
+    {
+        StartCoroutine(escrever_texto(nome , texto));
+    }
+
+
+    IEnumerator escrever_texto(string name, string texto, int mode = 0)
     {
         string[] novotexto = textcodifiquer(texto);
         text.text = "";
@@ -66,5 +74,19 @@ public class dialog_prefab_scp : MonoBehaviour
     }
 
 
+    
 
+    /// <summary>
+    /// Move o player na direção informada.
+    /// </summary>
+    /// <param name="direcao">Direção do movimento (Vector3).</param>
+    /// <param name="velocidade">Velocidade do movimento.</param>
+    
+    public void start(string name, string texto)
+    {
+        //iniciar animação
+        StartDialog(name, texto);
+    }
+    
+    
 }
