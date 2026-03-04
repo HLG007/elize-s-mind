@@ -3,21 +3,24 @@ using UnityEngine.InputSystem;
 
 public class mov_player : MonoBehaviour
 {
-    public float velocidade = 0.01f;
-    private Vector2 inputo;
+    private Vector2 movement;
+    [SerializeField] private float speed = 5f;
+    private Rigidbody2D rb;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void OnMove(InputValue value)
+    private void Awake()
     {
-        inputo = value.Get<Vector2>();
+        rb = GetComponent<Rigidbody2D>();
+
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnMovement(InputValue value)
     {
-        if (globalvariable.canmove)
-        {
-            transform.position += (Vector3)inputo * velocidade;
-        }
+        movement = value.Get<Vector2>();
+
+    }
+
+    private void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
     }
 }

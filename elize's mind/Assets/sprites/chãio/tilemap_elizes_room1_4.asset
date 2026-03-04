@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: tilemapquarto_0
+  m_Name: tilemap_elizes_room1_4
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: -2346910265565176567, guid: 2dcf9787f320d814bb72abac640e37ca, type: 3}
+  m_Sprite: {fileID: 655736811, guid: 7dfd002965beb7846a5f761e2067aa29, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

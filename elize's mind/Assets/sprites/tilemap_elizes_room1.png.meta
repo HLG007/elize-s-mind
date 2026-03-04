@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2dcf9787f320d814bb72abac640e37ca
+guid: 7dfd002965beb7846a5f761e2067aa29
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2346910265565176567
-    second: tilemapquarto_0
+      213: 5861812131301169324
+    second: tilemap_elizes_room1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tilemapquarto_0
+      name: tilemap_elizes_room1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,14 +115,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 90d15454c891e6fd0800000000000000
-      internalID: -2346910265565176567
+      spriteID: ca818428317595150800000000000000
+      internalID: 5861812131301169324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemapquarto_1
+      name: tilemap_elizes_room1_1
       rect:
         serializedVersion: 2
         x: 16
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a1cb34ef9f35f846bd58511046b57c0
-      internalID: 1975543862
+      spriteID: ffda2313f7957f24ebef4a991c6d12be
+      internalID: 1322312571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemapquarto_2
+      name: tilemap_elizes_room1_2
       rect:
         serializedVersion: 2
         x: 32
@@ -159,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0abe3b8a02486e4c8f003fa4234b6c8
-      internalID: 1728736292
+      spriteID: 7f8d9dd933bf8e445863c5faa63233bd
+      internalID: -487381165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemapquarto_3
+      name: tilemap_elizes_room1_3
       rect:
         serializedVersion: 2
         x: 48
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7a46087319423f4494ac2976273703a
-      internalID: -1789037123
+      spriteID: 7a4d848dbb48ab64f95950e9054471c2
+      internalID: 2033722755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemapquarto_4
+      name: tilemap_elizes_room1_4
       rect:
         serializedVersion: 2
         x: 0
@@ -203,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c222b271f0f73e44bef4fe15d2d9c93
-      internalID: 558061047
+      spriteID: e5e95770d20c51f4bb38e0eef23b2744
+      internalID: 655736811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemapquarto_5
+      name: tilemap_elizes_room1_5
       rect:
         serializedVersion: 2
         x: 16
@@ -225,14 +225,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc151ea6c15816146b02efd87bc6564e
-      internalID: -866326356
+      spriteID: d9bdd99f0c7fc604b838605f8e43d00c
+      internalID: 942965374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemapquarto_6
+      name: tilemap_elizes_room1_6
       rect:
         serializedVersion: 2
         x: 32
@@ -247,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2534cfea56de214c96bea63d122fc32
-      internalID: 1181971698
+      spriteID: 661630a84763f3e4cb07bbf9c49a5eea
+      internalID: 847782426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemapquarto_7
+      name: tilemap_elizes_room1_7
       rect:
         serializedVersion: 2
         x: 48
@@ -269,8 +269,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c38c65fbf540cc4c8dbb4604c258007
-      internalID: 1382958867
+      spriteID: 7e5de9e919866f8448a93d318a30e3d7
+      internalID: 839874886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_elizes_room1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1a21e36b27ddf42a35aa5a1932974a
+      internalID: 1341060568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_elizes_room1_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c58ff9db563b747b42e9e338ccb59e
+      internalID: -2043252834
       vertices: []
       indices: 
       edges: []
@@ -279,7 +323,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: af5a1620b4e27d943afbba68e978f522
+    spriteID: 919d9d70f3eca924883850485cc94a43
     internalID: 0
     vertices: []
     indices: 
@@ -291,14 +335,16 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      tilemapquarto_0: -2346910265565176567
-      tilemapquarto_1: 1975543862
-      tilemapquarto_2: 1728736292
-      tilemapquarto_3: -1789037123
-      tilemapquarto_4: 558061047
-      tilemapquarto_5: -866326356
-      tilemapquarto_6: 1181971698
-      tilemapquarto_7: 1382958867
+      tilemap_elizes_room1_0: 5861812131301169324
+      tilemap_elizes_room1_1: 1322312571
+      tilemap_elizes_room1_2: -487381165
+      tilemap_elizes_room1_3: 2033722755
+      tilemap_elizes_room1_4: 655736811
+      tilemap_elizes_room1_5: 942965374
+      tilemap_elizes_room1_6: 847782426
+      tilemap_elizes_room1_7: 839874886
+      tilemap_elizes_room1_8: 1341060568
+      tilemap_elizes_room1_9: -2043252834
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
