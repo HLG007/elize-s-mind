@@ -1,3 +1,5 @@
 -------------------------------------------------------------------------------------------------------------------
 Bem vindo ao registro de atualizações de codigos, ou pelo menos a tentativa de um
 ------------------------------------------------------------------------------------------------------------------
+
+pre-0.01: Adicionei a documentação no código, e tbm o jogo agora é jogável(não bonito, mas pelo menos funciona, por partes(o dialogo ta na branch)
